@@ -1,6 +1,7 @@
 package State;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class IdleState implements VendingState{
     public IdleState(VendingMachine machine) {
@@ -29,12 +30,12 @@ public class IdleState implements VendingState{
     }
 
     @Override
-    public void getChange(int returnChangeMoney) throws Exception {
+    public void getChange(int amountEnteredByUser, int itemPrice) throws Exception {
         throw new Exception("No coins inserted to receive change");
     }
 
     @Override
-    public void refundFullMoney(VendingMachine machine) throws Exception {
+    public List<Coin> refundFullMoney(VendingMachine machine) throws Exception {
         throw new Exception("No coins inserted to receive refund");
     }
 

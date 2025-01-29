@@ -2,10 +2,10 @@ package Observer.Observer;
 
 import Observer.Observable.StockObservable;
 
-public class MobileAlertObserver implements NotificationAlertObserver{
+public class MobileAlertObserverImpl implements NotificationAlertObserver{
     private String userName;
     private StockObservable stockObservable;
-    public MobileAlertObserver(String userName, StockObservable stockObservable) {
+    public MobileAlertObserverImpl(String userName, StockObservable stockObservable) {
         this.userName = userName;
         this.stockObservable = stockObservable;
     }

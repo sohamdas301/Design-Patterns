@@ -1,2 +1,4 @@
-package AbstractFactory.Product;public interface Gpu {
+package AbstractFactory.Product;
+
+public interface Gpu extends Product{
 }

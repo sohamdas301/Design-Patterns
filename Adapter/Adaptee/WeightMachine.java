@@ -1,2 +1,5 @@
-package Adapter.Adaptee;public class WeightMachine {
+package Adapter.Adaptee;
+
+public interface WeightMachine {
+    double getWeightInPounds();
 }

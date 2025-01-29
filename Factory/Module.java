@@ -1,2 +1,4 @@
-package Factory;public class Module {
+package Factory;
+
+public abstract class Module {
 }

@@ -1,2 +1,4 @@
-package Factory;public class Module1 {
+package Factory;
+
+public class Module1 extends Module{
 }

@@ -1,5 +1,5 @@
 package Adapter.Adapter;
 
-public interface WeightMachine {
+public interface WeightMachineAdapter {
     double getWeightInKg();
 }

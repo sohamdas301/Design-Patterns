@@ -1,2 +1,4 @@
-package Decorator;public class BurgerDecorator {
+package Decorator;
+
+public abstract class BurgerDecorator extends Burger {
 }

@@ -1,2 +1,5 @@
-package AbstractFactory.Product;public interface Product {
+package AbstractFactory.Product;
+
+public interface Product {
+    void assemble();
 }

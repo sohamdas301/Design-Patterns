@@ -1,2 +1,4 @@
-package AbstractFactory.Product;public interface Monitor {
+package AbstractFactory.Product;
+
+public interface Monitor extends Product{
 }
